@@ -29,5 +29,11 @@ public class Main {
         double division = operand1 / operand2;
         System.out.println(division);
 
+        double multiplication = operand1 * operand2;
+        System.out.println(multiplication);
+
+        double remainder = operand1 % operand2;
+        System.out.println(remainder);
+
     }
 }
