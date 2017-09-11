@@ -21,19 +21,11 @@ public class Main {
         Double operand2 = Double.parseDouble(input2);
 
         double sum = operand1 + operand2;
-        System.out.println(sum);
-
         double difference = operand1 - operand2;
-        System.out.println(difference);
-
         double division = operand1 / operand2;
-        System.out.println(division);
-
         double multiplication = operand1 * operand2;
-        System.out.println(multiplication);
-
         double remainder = operand1 % operand2;
-        System.out.println(remainder);
+
 
     }
 }
