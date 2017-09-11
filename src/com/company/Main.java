@@ -26,6 +26,12 @@ public class Main {
         double multiplication = operand1 * operand2;
         double remainder = operand1 % operand2;
 
+        showResults(sum, difference, division, multiplication, remainder);
+    }  // end of public static void main
+
+    public static void showResults(double sum, double difference, double division, double multiplication, double remainder) {
+        System.out.println("The sum is " + sum);
+        
 
     }
 }
