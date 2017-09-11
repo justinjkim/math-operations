@@ -17,5 +17,9 @@ public class Main {
     String input2 = input.nextLine();
     System.out.printf("You have chosen %s.", input2);
 
+    Double operand1 = Double.parseDouble(input1);
+    Double operand2 = Double.parseDouble(input2);
+
+
     }
 }
