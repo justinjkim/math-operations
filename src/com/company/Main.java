@@ -20,6 +20,9 @@ public class Main {
     Double operand1 = Double.parseDouble(input1);
     Double operand2 = Double.parseDouble(input2);
 
+    double sum = operand1 + operand2;
+    System.out.println(sum);
+
 
     }
 }
